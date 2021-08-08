@@ -18,7 +18,7 @@ func NormalizePSM(s string) string {
 	return b.String()
 }
 
-// likePSMTable は、長音記号風も文字のテーブルです。
+// likePSMTable は、長音記号風の文字のテーブルです。
 var likePSMTable = map[rune]struct{}{
 	0x002D: {}, // Hyphen-Minus
 	//0x00AD: {}, // Soft Hyphen (必要？)
